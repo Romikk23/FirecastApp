@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504BC13C2756968100DDBC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC13B2756968100DDBC44 /* AppDelegate.swift */; };
+		504BC13E2756968200DDBC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC13D2756968200DDBC44 /* SceneDelegate.swift */; };
+		504BC1402756968200DDBC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC13F2756968200DDBC44 /* ViewController.swift */; };
+		504BC1432756968200DDBC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504BC1412756968200DDBC44 /* Main.storyboard */; settings = {ASSET_TAGS = (switchOn, ); }; };
+		504BC145275696A900DDBC44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BC144275696A900DDBC44 /* Images.xcassets */; };
+		504BC148275696A900DDBC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504BC146275696A900DDBC44 /* LaunchScreen.storyboard */; };
+		504BC153275696A900DDBC44 /* FirecastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC152275696A900DDBC44 /* FirecastAppTests.swift */; };
+		504BC15E275696A900DDBC44 /* FirecastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BC15D275696A900DDBC44 /* FirecastAppUITests.swift */; };
+		CE019330278DE58A0006D476 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01932F278DE58A0006D476 /* ColorPickerViewController.swift */; };
+		CE019332278DEAE00006D476 /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE019331278DEAE00006D476 /* colorPalette.plist */; };
+		CE019333278DEE270006D476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BC144275696A900DDBC44 /* Images.xcassets */; };
+		CE019334278DEE290006D476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BC144275696A900DDBC44 /* Images.xcassets */; };
+		CE019336278DEF050006D476 /* palette2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE019335278DEF050006D476 /* palette2.png */; };
+		CEB5B00E27AACB8A00C69277 /* FlexColorPicker in Frameworks */ = {isa = PBXBuildFile; productRef = CEB5B00D27AACB8A00C69277 /* FlexColorPicker */; };
+		CEEB96CC278CAED7002952C8 /* uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB96CB278CAED7002952C8 /* uuid.swift */; };
+		CEF7034B27A7FBDB00425405 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7034A27A7FBDB00425405 /* FirstViewController.swift */; };
+		CEF7035127A8314800425405 /* GViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7035027A8314800425405 /* GViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504BC14F275696A900DDBC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC1302756968100DDBC44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BC1372756968100DDBC44;
+			remoteInfo = FirecastApp;
+		};
+		504BC15A275696A900DDBC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BC1302756968100DDBC44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BC1372756968100DDBC44;
+			remoteInfo = FirecastApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504BC1382756968100DDBC44 /* FirecastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirecastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC13B2756968100DDBC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504BC13D2756968200DDBC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		504BC13F2756968200DDBC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		504BC1422756968200DDBC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504BC144275696A900DDBC44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		504BC147275696A900DDBC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504BC149275696A900DDBC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504BC14E275696A900DDBC44 /* FirecastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirecastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC152275696A900DDBC44 /* FirecastAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirecastAppTests.swift; sourceTree = "<group>"; };
+		504BC154275696A900DDBC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504BC159275696A900DDBC44 /* FirecastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirecastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BC15D275696A900DDBC44 /* FirecastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirecastAppUITests.swift; sourceTree = "<group>"; };
+		504BC15F275696A900DDBC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE01932F278DE58A0006D476 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		CE019331278DEAE00006D476 /* colorPalette.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
+		CE019335278DEF050006D476 /* palette2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = palette2.png; path = ../../palette2.png; sourceTree = "<group>"; };
+		CEEB96CB278CAED7002952C8 /* uuid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uuid.swift; sourceTree = "<group>"; };
+		CEF7034427A7FA9400425405 /* FirecastApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirecastApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEF7034A27A7FBDB00425405 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CEF7035027A8314800425405 /* GViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504BC1352756968100DDBC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB5B00E27AACB8A00C69277 /* FlexColorPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC14B275696A900DDBC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC156275696A900DDBC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504BC12F2756968100DDBC44 = {
+			isa = PBXGroup;
+			children = (
+				504BC13A2756968100DDBC44 /* FirecastApp */,
+				504BC151275696A900DDBC44 /* FirecastAppTests */,
+				504BC15C275696A900DDBC44 /* FirecastAppUITests */,
+				504BC1392756968100DDBC44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504BC1392756968100DDBC44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504BC1382756968100DDBC44 /* FirecastApp.app */,
+				504BC14E275696A900DDBC44 /* FirecastAppTests.xctest */,
+				504BC159275696A900DDBC44 /* FirecastAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504BC13A2756968100DDBC44 /* FirecastApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE019335278DEF050006D476 /* palette2.png */,
+				CEF7035027A8314800425405 /* GViewController.swift */,
+				504BC13B2756968100DDBC44 /* AppDelegate.swift */,
+				504BC13D2756968200DDBC44 /* SceneDelegate.swift */,
+				504BC13F2756968200DDBC44 /* ViewController.swift */,
+				504BC1412756968200DDBC44 /* Main.storyboard */,
+				CEF7034A27A7FBDB00425405 /* FirstViewController.swift */,
+				504BC144275696A900DDBC44 /* Images.xcassets */,
+				504BC146275696A900DDBC44 /* LaunchScreen.storyboard */,
+				504BC149275696A900DDBC44 /* Info.plist */,
+				CEEB96CB278CAED7002952C8 /* uuid.swift */,
+				CE01932F278DE58A0006D476 /* ColorPickerViewController.swift */,
+				CE019331278DEAE00006D476 /* colorPalette.plist */,
+				CEF7034427A7FA9400425405 /* FirecastApp-Bridging-Header.h */,
+			);
+			path = FirecastApp;
+			sourceTree = "<group>";
+		};
+		504BC151275696A900DDBC44 /* FirecastAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				504BC152275696A900DDBC44 /* FirecastAppTests.swift */,
+				504BC154275696A900DDBC44 /* Info.plist */,
+			);
+			path = FirecastAppTests;
+			sourceTree = "<group>";
+		};
+		504BC15C275696A900DDBC44 /* FirecastAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				504BC15D275696A900DDBC44 /* FirecastAppUITests.swift */,
+				504BC15F275696A900DDBC44 /* Info.plist */,
+			);
+			path = FirecastAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504BC1372756968100DDBC44 /* FirecastApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC162275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastApp" */;
+			buildPhases = (
+				504BC1342756968100DDBC44 /* Sources */,
+				504BC1352756968100DDBC44 /* Frameworks */,
+				504BC1362756968100DDBC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirecastApp;
+			packageProductDependencies = (
+				CEB5B00D27AACB8A00C69277 /* FlexColorPicker */,
+			);
+			productName = FirecastApp;
+			productReference = 504BC1382756968100DDBC44 /* FirecastApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504BC14D275696A900DDBC44 /* FirecastAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC165275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastAppTests" */;
+			buildPhases = (
+				504BC14A275696A900DDBC44 /* Sources */,
+				504BC14B275696A900DDBC44 /* Frameworks */,
+				504BC14C275696A900DDBC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BC150275696A900DDBC44 /* PBXTargetDependency */,
+			);
+			name = FirecastAppTests;
+			productName = FirecastAppTests;
+			productReference = 504BC14E275696A900DDBC44 /* FirecastAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504BC158275696A900DDBC44 /* FirecastAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BC168275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastAppUITests" */;
+			buildPhases = (
+				504BC155275696A900DDBC44 /* Sources */,
+				504BC156275696A900DDBC44 /* Frameworks */,
+				504BC157275696A900DDBC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BC15B275696A900DDBC44 /* PBXTargetDependency */,
+			);
+			name = FirecastAppUITests;
+			productName = FirecastAppUITests;
+			productReference = 504BC159275696A900DDBC44 /* FirecastAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504BC1302756968100DDBC44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					switchOn,
+				);
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Roman;
+				TargetAttributes = {
+					504BC1372756968100DDBC44 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1320;
+					};
+					504BC14D275696A900DDBC44 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 504BC1372756968100DDBC44;
+					};
+					504BC158275696A900DDBC44 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 504BC1372756968100DDBC44;
+					};
+				};
+			};
+			buildConfigurationList = 504BC1332756968100DDBC44 /* Build configuration list for PBXProject "FirecastApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504BC12F2756968100DDBC44;
+			packageReferences = (
+				CEB5B00C27AACB8A00C69277 /* XCRemoteSwiftPackageReference "FlexColorPicker" */,
+			);
+			productRefGroup = 504BC1392756968100DDBC44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504BC1372756968100DDBC44 /* FirecastApp */,
+				504BC14D275696A900DDBC44 /* FirecastAppTests */,
+				504BC158275696A900DDBC44 /* FirecastAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504BC1362756968100DDBC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BC148275696A900DDBC44 /* LaunchScreen.storyboard in Resources */,
+				504BC145275696A900DDBC44 /* Images.xcassets in Resources */,
+				CE019332278DEAE00006D476 /* colorPalette.plist in Resources */,
+				CE019336278DEF050006D476 /* palette2.png in Resources */,
+				504BC1432756968200DDBC44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC14C275696A900DDBC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE019333278DEE270006D476 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC157275696A900DDBC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE019334278DEE290006D476 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504BC1342756968100DDBC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE019330278DE58A0006D476 /* ColorPickerViewController.swift in Sources */,
+				CEF7035127A8314800425405 /* GViewController.swift in Sources */,
+				CEF7034B27A7FBDB00425405 /* FirstViewController.swift in Sources */,
+				CEEB96CC278CAED7002952C8 /* uuid.swift in Sources */,
+				504BC1402756968200DDBC44 /* ViewController.swift in Sources */,
+				504BC13C2756968100DDBC44 /* AppDelegate.swift in Sources */,
+				504BC13E2756968200DDBC44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC14A275696A900DDBC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BC153275696A900DDBC44 /* FirecastAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BC155275696A900DDBC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BC15E275696A900DDBC44 /* FirecastAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504BC150275696A900DDBC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BC1372756968100DDBC44 /* FirecastApp */;
+			targetProxy = 504BC14F275696A900DDBC44 /* PBXContainerItemProxy */;
+		};
+		504BC15B275696A900DDBC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BC1372756968100DDBC44 /* FirecastApp */;
+			targetProxy = 504BC15A275696A900DDBC44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		504BC1412756968200DDBC44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504BC1422756968200DDBC44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504BC146275696A900DDBC44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504BC147275696A900DDBC44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504BC160275696A900DDBC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504BC161275696A900DDBC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504BC163275696A900DDBC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG72VF6UP8;
+				INFOPLIST_FILE = FirecastApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirecastApp/FirecastApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504BC164275696A900DDBC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG72VF6UP8;
+				INFOPLIST_FILE = FirecastApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirecastApp/FirecastApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		504BC166275696A900DDBC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirecastAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirecastApp.app/FirecastApp";
+			};
+			name = Debug;
+		};
+		504BC167275696A900DDBC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirecastAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirecastApp.app/FirecastApp";
+			};
+			name = Release;
+		};
+		504BC169275696A900DDBC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirecastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirecastApp;
+			};
+			name = Debug;
+		};
+		504BC16A275696A900DDBC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirecastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Romikk.FirecastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirecastApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504BC1332756968100DDBC44 /* Build configuration list for PBXProject "FirecastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC160275696A900DDBC44 /* Debug */,
+				504BC161275696A900DDBC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC162275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC163275696A900DDBC44 /* Debug */,
+				504BC164275696A900DDBC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC165275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC166275696A900DDBC44 /* Debug */,
+				504BC167275696A900DDBC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BC168275696A900DDBC44 /* Build configuration list for PBXNativeTarget "FirecastAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BC169275696A900DDBC44 /* Debug */,
+				504BC16A275696A900DDBC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEB5B00C27AACB8A00C69277 /* XCRemoteSwiftPackageReference "FlexColorPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RastislavMirek/FlexColorPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEB5B00D27AACB8A00C69277 /* FlexColorPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEB5B00C27AACB8A00C69277 /* XCRemoteSwiftPackageReference "FlexColorPicker" */;
+			productName = FlexColorPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 504BC1302756968100DDBC44 /* Project object */;
+}
